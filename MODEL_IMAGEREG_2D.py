@@ -308,7 +308,7 @@ for epoch in range(num_epochs):
             break
 
 # Save model weights
-torch.save(model.state_dict(), os.path.join(DATASET_DIR, 'FINALMODEL.pth'))
+torch.save(model.state_dict(), os.path.join(DATASET_DIR, 'FINALMODEL3.pth'))
 
 # Plot loss curve
 epochs = range(1, len(train_losses) + 1)
